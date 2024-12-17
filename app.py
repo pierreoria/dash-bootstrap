@@ -30,10 +30,10 @@ server = app.server                     # Necessary for Heroku?
 
 app.layout = corelayout.createlayout(
     headercontents=header.header(),
-    leftsidebarcontents=leftsidebar.side_navbar(),
-    popupcontents=leftsidebar.navbar_drawer(),
-    popuptitle=leftsidebar.popup_title(),
-    rightsidebarcontents=rightsidebar.aside(),
+    #leftsidebarcontents=leftsidebar.side_navbar(),
+    #popupcontents=leftsidebar.navbar_drawer(),
+    #popuptitle=leftsidebar.popup_title(),
+    #rightsidebarcontents=rightsidebar.aside(),
     footercontents=footer.footer()
 )
 
